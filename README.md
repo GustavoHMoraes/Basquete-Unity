@@ -23,20 +23,20 @@ A cena 1 foi inteiramente montada com objetos feitos no blender, para simular um
 # Script
 
 Codígo que faz a cesta se mover:<br>
-<img src ="img/cesta.png">
+<img src ="img/cesta.png"><br>
 Ele utiliza uma variável de velocidade e uma posição limite em Z para mudar a direção do movimento quando o objeto ultrapassa esses limites. No método Update(), verifica-se a posição do objeto e atualiza o movimento com base na direção e na velocidade, permitindo que o objeto se mova para frente e para trás no eixo Z.
 <br>
 Codígo de movimentação utilizado na bola:<br>
-<img src ="img/movimentacao.png">
+<img src ="img/movimentacao.png"><br>
 O código permite mover um objeto com base nas teclas  (W, S, D, A, Espaço) que estam associadas a uma direção de movimento (frente, trás, direita, esquerda, salto). A função Movimento é chamada para aplicar o movimento ao objeto usando transform.Translate. O código redefine o vetor de movimento para zero após cada movimento, o que pode afetar a continuidade de certos movimentos, como saltos, uma vez que as componentes do vetor são zeradas.
 <br>
 Codígo para alternar a fase depois de 2 cestas:<br>
-<img src ="img/altcena.png">
+<img src ="img/altcena.png"><br>
 Este script controla uma contagem de colisões de um objeto com a tag "Player". Ele incrementa uma variável chamada bola cada vez que ocorre uma colisão. Quando essa variável atinge o valor de 2, o script carrega uma nova cena especificada pela variável Segfase usando SceneManager.LoadScene. Isso pode representar um sistema de contagem para passar para a próxima fase do jogo após duas colisões com este objeto.
 <br>
 Codígo para mostrar a mensagem:<br>
 <img src ="img/msn.png">
-<img src ="img/areatexto.png">
+<img src ="img/areatexto.png"><br>
 Este script faz com que apareça uma mensagem enquanto você está em um trigger collider.
 
 # Static Collider
