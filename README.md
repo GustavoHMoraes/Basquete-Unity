@@ -5,12 +5,12 @@ Carlos Alarcon e Gustavo Henrique
 https://drive.google.com/file/d/10aXGi0SEPtx87lJB6BgXqw7xECpvPc2L/view?usp=sharing
 
 # Colisores
-1.Static Collider
-2.Rigidbody Collider
-3.Kinematic Rigidbody Collider
-4.Static Trigger Collider
-5.Rigidbody Trigger Collider
-6.Kinematic Rigidbody Trigger Collider
+1.Static Collider<br>
+2.Rigidbody Collider<br>
+3.Kinematic Rigidbody Collider<br>
+4.Static Trigger Collider<br>
+5.Rigidbody Trigger Collider<br>
+6.Kinematic Rigidbody Trigger Collider<br>
 # Cenas
 <h2>Essas cenas foram criadas para demonstrar os tipos de colisores do unity de um jeito divertido, simulando uma partida de basquete</h2>
 <img src ="img/cena1.png">
