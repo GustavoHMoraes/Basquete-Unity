@@ -20,6 +20,24 @@ https://drive.google.com/file/d/10aXGi0SEPtx87lJB6BgXqw7xECpvPc2L/view?usp=shari
 A cena 1 foi inteiramente montada com objetos feitos no blender, para simular um ginasio de basquete, com arquibancadas, até banners de titúlos de campeonatos.
 </h2>
 
+# Hud e Menu
+<img src ="img/menui.png"> <br>
+<img src ="img/hud.png"><br>
+<img src ="img/fim.png"><br>
+
+Os menus e a hud foram feitos com o gameObject canvas, panel e buttons.
+<img src ="img/cMenu.png"><br>
+
+Este codigo define um menu com três métodos:
+
+Jogar(): Carrega a cena "SampleScene" quando o botão "Jogar" é pressionado.
+VoltarMenu(): Carrega a cena "menu" quando o botão "VoltarMenu" é pressionado.
+Sair(): Encerra a aplicação quando o botão "Sair" é pressionado.
+
+<img src ="img/cHud.png"><br>
+
+Este codigo contabiliza quando a bola atinge a cesta e altera o número de cestas feitas
+
 # Script
 
 Codígo que faz a cesta se mover:
